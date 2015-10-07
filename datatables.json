@@ -1,0 +1,10 @@
+{
+    "css": [
+        "css/rowReorder.jqueryui.css",
+        "css/rowReorder.jqueryui.min.css"
+    ],
+    "js": [],
+    "src-repo": "http://github.com/DataTables/RowReorder",
+    "last-sync": "a348184dff2db8fe03867f47f48f970a132aea96",
+    "last-tag": "1.0.0"
+}
