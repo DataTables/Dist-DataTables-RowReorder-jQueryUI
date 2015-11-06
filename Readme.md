@@ -19,7 +19,7 @@ npm install datatables.net-rowreorder-jqui
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-rowreorder-jqui' )( $ );
+require( 'datatables.net-rowreorder-jqui' )( window, $ );
 ```
 
 ### bower
