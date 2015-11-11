@@ -5,7 +5,6 @@
     "files": [
         "css/rowReorder.jqueryui.css"
     ],
-    "main": "./js/rowReorder.jqueryui.js",
     "keywords": [
         "row reordering",
         "DataTables",
