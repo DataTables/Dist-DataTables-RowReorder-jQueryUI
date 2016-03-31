@@ -23,5 +23,9 @@
         "jquery": ">=1.7",
         "datatables.net-jqui": ">=1.10.9",
         "datatables.net-rowreorder": ">=1.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-jQueryUI.git"
     }
 }
