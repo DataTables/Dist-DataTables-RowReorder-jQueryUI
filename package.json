@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowreorder-jqui",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "description": "RowReorder for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/rowReorder.jqueryui.css"
