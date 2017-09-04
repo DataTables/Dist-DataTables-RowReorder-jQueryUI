@@ -3,7 +3,7 @@
     "version": "1.2.2",
     "description": "RowReorder for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/rowReorder.jqueryui.css"
+        "css/**/*.css"
     ],
     "style": "css/rowReorder.jqueryui.css",
     "keywords": [
