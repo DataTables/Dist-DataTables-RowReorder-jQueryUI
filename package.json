@@ -3,7 +3,8 @@
     "version": "1.2.3",
     "description": "RowReorder for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/rowReorder.jqueryui.css",
     "keywords": [
@@ -28,5 +29,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-jQueryUI.git"
-    }
+    },
+    "main": "js/rowReorder.jqueryui.js"
 }
