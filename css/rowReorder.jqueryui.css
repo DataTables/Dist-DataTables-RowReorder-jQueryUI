@@ -2,13 +2,13 @@ table.dt-rowReorder-float {
   position: absolute !important;
   opacity: 0.8;
   table-layout: fixed;
-  outline: 2px solid #888888;
+  outline: 2px solid #888;
   outline-offset: -2px;
   z-index: 2001;
 }
 
 tr.dt-rowReorder-moving {
-  outline: 2px solid #555555;
+  outline: 2px solid #555;
   outline-offset: -2px;
 }
 
