@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/rowReorder.jqueryui.css",
-        "css/rowReorder.jqueryui.min.css"
-    ],
     "js": [
         "js/rowReorder.jqueryui.js",
         "js/rowReorder.jqueryui.min.js"
     ],
+    "css": [
+        "css/rowReorder.jqueryui.css",
+        "css/rowReorder.jqueryui.min.css"
+    ],
+    "types": [
+        "types/rowReorder.jQueryUI.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/RowReorder",
-    "last-sync": "2d5317cd244374346199da618c3869d4aef63f90",
     "last-tag": "1.2.7"
 }

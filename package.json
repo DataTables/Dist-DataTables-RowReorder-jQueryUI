@@ -1,34 +1,48 @@
 {
     "name": "datatables.net-rowreorder-jqui",
+    "description": "RowReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/rowReorder.jqueryui.js",
+    "style": "css/rowReorder.jqueryui.css",
     "version": "1.2.7",
-    "description": "RowReorder for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/rowReorder.jqueryui.css",
     "keywords": [
-        "row reordering",
-        "DataTables",
+        "RowReorder",
+ "Row Reordering",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQuery UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-rowreorder": ">=1.2.7",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-rowreorder": "1.2.7"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-jQueryUI.git"
-    },
-    "main": "js/rowReorder.jqueryui.js"
+    }
 }

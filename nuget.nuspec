@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-rowreorder-ju</id>
-    <version>1.2.7</version>
-    <description>RowReorder for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>rowreorder DataTables jQuery table jqueryUI</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-RowReorder-jqueryUI.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-rowreorder" version="1.2.7"/>
-      <dependency id="jqueryui" version="1.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/rowreorder.jqueryui.js" target="content\Scripts"/>
-    <file src="js/rowreorder.jqueryui.min.js" target="content\Scripts"/>
-    <file src="css/rowreorder.jqueryui.css" target="content\Content"/>
-    <file src="css/rowreorder.jqueryui.min.css" target="content\Content"/>
-    <file src="js/rowreorder.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/rowreorder.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/rowreorder.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/rowreorder.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.2.7</version>
+        <id>datatables.net-rowreorder-jqui</id>
+        <description>This is RowReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-RowReorder-jQueryUI.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>RowReorder  Row Reordering  jQuery UI  jQueryUI  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-rowreorder" version=">=1.2.7"/>
+            <dependency id="datatables.net-jqui" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/rowReorder.jqueryui.js" target="content\Scripts"/>
+        <file src="js/rowReorder.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/rowReorder.jqueryui.min.js" target="content\Scripts"/>
+        <file src="js/rowReorder.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/rowReorder.jqueryui.css" target="content\Content"/>
+        <file src="css/rowReorder.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/rowReorder.jqueryui.min.css" target="content\Content"/>
+        <file src="css/rowReorder.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/rowReorder.jQueryUI.d.ts" target="content\Scripts"/>
+        <file src="types/rowReorder.jQueryUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+
