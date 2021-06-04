@@ -11,5 +11,5 @@
         "types/rowReorder.jQueryUI.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/RowReorder",
-    "last-tag": "1.2.7"
+    "last-tag": "1.2.8"
 }
