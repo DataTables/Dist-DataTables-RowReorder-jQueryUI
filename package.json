@@ -4,16 +4,16 @@
     "main": "js/rowReorder.jqueryui.js",
     "style": "css/rowReorder.jqueryui.css",
     "types": "./types/rowReorder.jQueryUI.d.ts",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "RowReorder",
- "Row Reordering",
+        "Row Reordering",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
