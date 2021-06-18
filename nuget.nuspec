@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>RowReorder  Row Reordering  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-rowreorder" version=">=1.2.8"/>
-            <dependency id="datatables.net-jqui" version=">=1.10.25"/>
+            <dependency id="datatables.net-rowreorder" version="1.2.8"/>
+            <dependency id="datatables.net-jqui" version="1.10.25"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
