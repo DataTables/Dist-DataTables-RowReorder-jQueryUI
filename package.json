@@ -23,7 +23,7 @@
     ],
     "dependencies": {
         "datatables.net-rowreorder": ">=1.2.8",
-        "datatables.net-jqui": ">=1.11.3",
+        "datatables.net-jqui": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [

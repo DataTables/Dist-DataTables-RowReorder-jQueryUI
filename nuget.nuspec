@@ -11,7 +11,7 @@
         <tags>RowReorder  Row Reordering  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-rowreorder" version="1.2.8"/>
-            <dependency id="datatables.net-jqui" version="1.11.3"/>
+            <dependency id="datatables.net-jqui" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/rowReorder.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/rowReorder.jqueryui.min.css" target="content\Content"/>
         <file src="css/rowReorder.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/rowReorder.jQueryUI.d.ts" target="content\Scripts"/>
-        <file src="types/rowReorder.jQueryUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
