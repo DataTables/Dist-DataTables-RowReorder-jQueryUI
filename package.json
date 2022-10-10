@@ -2,12 +2,14 @@
     "name": "datatables.net-rowreorder-jqui",
     "description": "RowReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/rowReorder.jqueryui.js",
+    "module": "js/rowReorder.jqueryui.mjs",
     "style": "css/rowReorder.jqueryui.css",
     "types": "./types/rowReorder.jQueryUI.d.ts",
     "version": "1.2.8",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

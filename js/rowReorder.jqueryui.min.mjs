@@ -1,0 +1,1 @@
+import $ from"jquery";import DataTable from"datatables.net-ju";import DataTable from"datatables.net-rowreorder";export default DataTable;
