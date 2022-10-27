@@ -4,7 +4,7 @@
     "main": "js/rowReorder.jqueryui.js",
     "module": "js/rowReorder.jqueryui.mjs",
     "style": "css/rowReorder.jqueryui.css",
-    "types": "./types/rowReorder.jQueryUI.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.2.8",
     "files": [
         "css/**/*.css",
