@@ -11,6 +11,10 @@ div.dt-rowReorder-float-parent {
   overflow: hidden;
 }
 
+div.dt-rowReorder-float-parent.drop-not-allowed {
+  cursor: not-allowed;
+}
+
 tr.dt-rowReorder-moving {
   outline: 2px solid #555;
   outline-offset: -2px;
