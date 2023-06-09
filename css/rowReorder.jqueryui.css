@@ -1,14 +1,15 @@
-table.dt-rowReorder-float {
-  opacity: 0.8;
-}
-
 div.dt-rowReorder-float-parent {
   table-layout: fixed;
-  outline: 2px solid #888;
-  outline-offset: -2px;
+  outline: 2px solid #0a59cb;
   z-index: 2001;
   position: absolute !important;
   overflow: hidden;
+  border-radius: 3px;
+}
+div.dt-rowReorder-float-parent table.dt-rowReorder-float {
+  opacity: 0.9;
+  background-color: white;
+  margin: 0 !important;
 }
 
 div.dt-rowReorder-float-parent.drop-not-allowed {
@@ -16,7 +17,7 @@ div.dt-rowReorder-float-parent.drop-not-allowed {
 }
 
 tr.dt-rowReorder-moving {
-  outline: 2px solid #555;
+  outline: 2px solid #888;
   outline-offset: -2px;
 }
 
@@ -27,4 +28,14 @@ body.dt-rowReorder-noOverflow {
 table.dataTable td.reorder {
   text-align: center;
   cursor: move;
+}
+
+html.dark div.dt-rowReorder-float-parent {
+  outline-color: #6ea8fe;
+}
+html.dark div.dt-rowReorder-float-parent table.dt-rowReorder-float {
+  background-color: var(--dt-html-background);
+}
+html.dark tr.dt-rowReorder-moving {
+  outline-color: #aaa;
 }
