@@ -5,7 +5,7 @@
     "module": "js/rowReorder.jqueryui.mjs",
     "style": "css/rowReorder.jqueryui.css",
     "types": "./types/rowReorder.jqueryui.d.ts",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
