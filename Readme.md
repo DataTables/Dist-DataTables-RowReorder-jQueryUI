@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-jqui';
 import 'datatables.net-rowreorder-jqui'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
