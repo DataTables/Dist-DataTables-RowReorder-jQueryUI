@@ -1,4 +1,4 @@
-/*! RowReorder jQuery UI styling 2.0.0-beta.1 for DataTables
+/*! RowReorder jQuery UI styling 2.0.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
