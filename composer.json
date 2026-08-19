@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-rowreorder-jqui",
-    "description": "RowReorder adds end user reordering of rows in a DataTable through click-and-drag mouse and touch operations. RowReorder provides full support for Editor allowing end users to update sequential information in a fast and easy manner. This is RowReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "description": "RowReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-RowReorder-jQueryUI"
@@ -27,7 +27,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-rowreorder": ">=1.2.8",
-        "datatables.net/datatables.net-jqui": ">=1.12.1"
+        "datatables.net/datatables.net-rowreorder": "2.0.0",
+        "datatables.net/datatables.net-jqui": "^3"
     }
 }
