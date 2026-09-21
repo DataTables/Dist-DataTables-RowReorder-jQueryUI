@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowreorder-jqui",
     "description": "RowReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/rowReorder.jqueryui.js",
-    "module": "js/rowReorder.jqueryui.mjs",
-    "style": "css/rowReorder.jqueryui.css",
+    "main": "./js/rowReorder.jqueryui.js",
+    "module": "./js/rowReorder.jqueryui.mjs",
+    "style": "./css/rowReorder.jqueryui.css",
     "types": "./types/rowReorder.jqueryui.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowReorder",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowReorder.jqueryui.d.ts",
+            "import": "./js/rowReorder.jqueryui.mjs",
+            "default": "./js/rowReorder.jqueryui.mjs",
+            "require": "./js/rowReorder.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowReorder.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
